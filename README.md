@@ -12,8 +12,10 @@ Learn more about WebJobs:
 1. Clone or download the repository
 2. Open the solution with Visual Studio (2013/2015). Be sure to have the latest Azure SDK installed.
 3. In the App.config, paste in your Azure Storage connection string for the following settings:
-        <add name="AzureWebJobsDashboard" connectionString="" />
-        <add name="AzureWebJobsStorage" connectionString="" />
+```
+<add name="AzureWebJobsDashboard" connectionString="" />
+<add name="AzureWebJobsStorage" connectionString="" />
+```
 4. Hit run to test locally - you'll see new Queue Messages created on a regular basis.
 5. Right click on the solution and select "Publish as Azure WebJob" to publish to your App Service App (Web, Mobile, API, etc.)
 

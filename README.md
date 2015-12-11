@@ -12,7 +12,8 @@ Learn more about WebJobs:
 1. Clone or download the repository
 2. Open the solution with Visual Studio (2013/2015). Be sure to have the latest Azure SDK installed.
 3. In the App.config, paste in your Azure Storage connection string for the following settings:
-```
+
+  ```
 <add name="AzureWebJobsDashboard" connectionString="" />
 <add name="AzureWebJobsStorage" connectionString="" />
 ```
